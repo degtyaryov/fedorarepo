@@ -1,0 +1,1 @@
+./jxrlib-1.1.spec
