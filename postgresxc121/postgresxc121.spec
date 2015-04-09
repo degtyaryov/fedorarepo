@@ -1,0 +1,1 @@
+./postgresxc-1.2.1.spec
