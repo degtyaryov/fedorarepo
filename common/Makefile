@@ -3,7 +3,7 @@ RPMDEFINES := --define "_sourcedir $(SRCDIR)" \
               --define "_srcrpmdir $(SRCDIR)" \
               --define "_rpmdir $(SRCDIR)"
 
-REPODIR := /home/timon/development/repo
+REPODIR := $(shell dirname $(realpath $(lastword $(MAKEFILE_LIST))))/../repo
 RELEASE := 20
 ARCH := x86_64
 
